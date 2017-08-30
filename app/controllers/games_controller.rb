@@ -1,5 +1,4 @@
 class GamesController < ApplicationController
-  lass GamesController < ApplicationController
   before_action :set_game, only: [:show, :update]
 
   def index
@@ -32,4 +31,3 @@ class GamesController < ApplicationController
   end
 end
 
-end
